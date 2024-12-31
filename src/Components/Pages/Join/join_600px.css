@@ -1,0 +1,166 @@
+@media (max-width: 600px) {
+    /* List all classes to hide here */
+    .gears-image,
+    .collab-image,
+    .join-description,
+    .bg-join1,
+    .bg-join2,
+    .group-photo,
+    .bg-join4,
+    .Team,
+    .Eboard-button,
+    .top-bar,
+    .first-bar,
+    .shpe-familia {
+      display: none; /* Hides all elements in this list */
+    }
+  
+  
+  
+  
+    .join-main-title {
+      margin-left: auto; /* Automatically centers with the next rule */
+      margin-right: auto; /* Automatically centers horizontally */
+      font-size: 70px;
+      margin-top: 60px;
+      text-align: center; /* Ensures the title aligns without left/right scrolling */
+      max-width: 90%; /* Prevents the element from overflowing */
+      overflow-wrap: break-word; /* Ensures long words break to avoid scrolling */
+    }
+    
+    .join-subtitle {
+      width:600px;
+      font-size: 26px;
+      font-weight: bold;
+      margin-left:20px
+  
+  
+    }
+    .bg-join3{
+      position: relative;
+      height: 1000px;
+      width:200%;
+      margin-left:-30px;
+      margin-top:40px;
+      z-index: -1;
+  
+    }
+    .Professional{
+      font-size:20px;
+      margin-top:-430px;
+      margin-left:-10px
+  
+  
+    
+    }
+    .Profess-detail{
+      color:black;
+      z-index:1;
+      font-size:17px;
+      margin-top:-450px;
+      width:265px;
+      margin-left:-20px;
+      color:white;
+  
+    }
+    .profess-image{
+      width:310px;;
+      height: auto;
+      margin-top:-739px;
+      margin-left:260px;
+  
+  
+    }
+    .Academic{
+      margin-top: -232px;
+      font-size:20px;
+      margin-left: -10px;
+    }
+    .Academic-detail{
+      color:black;
+      width:265px;
+      font-size: 17px;
+      margin-left:-20px;
+      margin-top:-260px;
+      color:white;
+    }
+  
+    .Social{
+      margin-top:-540px;
+      font-size:20px;
+      font-weight: bolder;
+      margin-left:380px;
+    }
+  
+    .Social-detail{
+      color:black;
+      margin-top:-595px;
+      font-size:17px;
+      width:270px;
+      margin-left:280px;
+      color:white;
+    }
+    .arduino{
+  
+      top:500px;
+      margin-bottom: 900px;
+      width:47%;
+      height: 350px;
+      margin-left:285px;
+      margin-top:200px
+    }
+    .social-image{
+      width:50%;
+      height: 350px;;
+      margin-top:-310px;
+      margin-left:-15px;
+  
+    }
+    .bg-join6{
+      margin-top:-718px;
+      height: 300px;
+      width:870px
+    }
+    .Updated{
+      color:black;
+      margin-top: -730px;
+      width:500px;
+      font-size:50px;
+      margin-left:110px;
+      color:white;
+    }
+  
+    /* finish this part for the join me */
+    .Member{
+      font-size: 25px;
+      margin-top:-125%;
+      margin-left:400px;
+    }
+    .Follow{
+      margin-top:-125%;
+      position: absolute;
+      font-size:28px;
+    }
+    .Join{
+      margin-top:-750px;
+      font-size:28px
+  
+    }
+    .insta-image, .groupme-image, .shpelogo-image {
+      margin-top:-755px;
+  
+      position: absolute;
+      width: 10%;
+      height: auto;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .insta-image:hover, .groupme-image:hover, .shpelogo-image:hover {
+      transform: scale(1.1); /* Increases the size by 10% */
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow */
+    }
+    .insta-image{
+  
+    }
+  
+  }

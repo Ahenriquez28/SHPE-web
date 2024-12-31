@@ -17,7 +17,6 @@ const Navbar = () => {
       <nav className="navbar">
         <ul>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/Events">Events</Link></li>
           <li><Link to="/sponsors">Sponsors</Link></li>
           <li><Link to="/join">Join</Link></li>
           <li><Link to="/EBoard">EBoard</Link></li>

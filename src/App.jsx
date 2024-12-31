@@ -9,7 +9,7 @@ import ShpeTinas from './Components/Card/HomePage/ShpeTinasCard/Shpetinas';
 import ShpeJr from './Components/Card/HomePage/ShpeJr/ShpeJr';
 import ShpeConvention from './Components/Card/HomePage/ShpeConvention/ShpeConvention';
 import Resume from './Components/Card/HomePage/Resume/Resume';
-import Events from './Components/Pages/Events/Events';
+
 import Join from './Components/Pages/Join/Join';
 import EBoard from './Components/Pages/EBoard/EBoard';
 import Sponsors from './Components/Pages/Sponsors/Sponsors';
@@ -33,7 +33,6 @@ const App = () => {
             )}
             <main className='main-content'>
                 <Routes>
-                    <Route path="/Events" element={<Events />} />
                     <Route path="/sponsors" element={<Sponsors/>} />
                     <Route path="/join" element={<Join />} />
                     <Route path="/EBoard" element={<EBoard />} />

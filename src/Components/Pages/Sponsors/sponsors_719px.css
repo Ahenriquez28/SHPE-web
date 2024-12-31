@@ -1,0 +1,107 @@
+@media (max-width: 719px) {
+    .element-to-hide ,.background1bar , .background4, .Members,.VISA-image,.sponsors-container{
+        display: none; /* This will hide the element on small screens */
+        
+    }
+    .sub-title{
+        margin-top: 15px;
+    }
+    .title1{
+        margin-left: 10px;
+        font-size:25px;
+        line-height: 50px;
+        margin-top: -60px;   
+        
+    }
+    .download-button{
+        margin-top:-300px
+    }
+    .NCR-image{
+        margin-top:-450px;
+        margin-left:5px;
+        height: 150px;
+        width:auto;
+    }
+    .Familia-photo{
+        margin-top: -790px;
+        /*width: auto;
+        height: 220px; */
+        width:121%;
+        height:auto;
+
+
+    }
+    .family-first{
+        margin-top:-870px;
+        color:white;
+        font-size:40px;
+        margin-left: 340px;
+
+    }
+    .family-second{
+        color:#FD652F;
+        font-size:38px;
+        margin-top:-1030px;
+        margin-left:290px;
+
+    }
+    .background3{
+        margin-top: -790px;
+        padding: 1px;
+        width: 500px;
+        height: 220px;
+        margin-left:100px;
+
+    }
+    .rocket{
+        margin-top: -1135px;
+        margin-left: 390px;
+    }
+    .sponsors-container img{
+        margin-top: -2000px;
+        width:auto;
+        height: 100px;
+    }
+    .Majors{
+        font-size: 22px;
+        margin-top: -1550px;
+    }
+    .major-data{
+        color:#72A9BE;
+        font-size: 40px;
+        margin-top: -1600px;
+        width: 100px;
+        font-size: 15px;
+        width:200px;
+        margin-left: -60px;
+    }
+
+    .GPA{
+        font-size: 22px;
+        margin-top: -1550px;
+        margin-left:420px;
+    }
+    .GPA-data{
+        font-size: 22px;
+        margin-top: -1600px;
+        margin-left: 440px;
+        color:#72A9BE;
+
+    }
+
+    .Grade{
+        font-size: 22px;
+        margin-top: -1550px;
+        margin-left:180px;
+    }
+    .Grade-data{
+        color:#72A9BE;
+        font-size: 22px;
+        margin-top: -1600px;
+        margin-left:190px;
+
+    }
+    
+
+
+}

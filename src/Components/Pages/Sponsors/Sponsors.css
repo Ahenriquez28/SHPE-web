@@ -23,6 +23,11 @@ html, body {
     overflow: hidden;
 
 }
+.Familia-photo2{
+    width:0;
+    height: 100px;
+    position: absolute;
+}
 
 .background1bar{
     position: absolute;
@@ -108,13 +113,14 @@ html, body {
     width: 60%;
     height: auto;
     top:230%;
+    display:none;
 }
 .NCR-image{
     position: absolute;
     width: 137%;
     height: auto;
     top:210%;
-    margin-left: 80%;
+    margin-left: 30%;
 } 
 .background3{
     position: absolute;
@@ -192,14 +198,14 @@ html, body {
     top:940%;
     width: 100%;
 
-    color: #FD652F;
+    color: #0033A0;
     font-size:40px;
     margin-left:-20%;
     font-weight: bold;
 }
 .major-data{
     font-family: 'Univers LT Std', sans-serif;
-    color:white;
+    color: white;
     top:1000%;
     font-size:25px;
     position: absolute;
@@ -211,9 +217,9 @@ html, body {
     font-family: 'Univers LT Std', sans-serif;
     position: absolute;
     top:940%;
-    color: #FD652F;
+    color: #0033A0;
     font-size:40px;
-    margin-left:80%;
+    margin-left:70%;
     font-weight: bold;
     width: 100%
 
@@ -225,7 +231,7 @@ html, body {
     top:995%;
     font-size:25px;
     position: absolute;
-    margin-left: 95%;
+    margin-left: 85%;
     width:100%
 
 }
@@ -234,7 +240,7 @@ html, body {
     font-family: 'Univers LT Std', sans-serif;
     position: absolute;
     top:940%;
-    color: #FD652F;
+    color:#0033A0;
     font-size:40px;
     margin-left:160%;
     font-weight: bold;
@@ -289,4 +295,14 @@ html, body {
 .background1, .background2, .background3, .background4 {
     max-width: 100vw; /* Ensure these elements don't exceed viewport width */
 }
+
+
+/* For small screens (phones) */
+
+
+
+/* THIS IS for tablet size screens  675*/
+
+
+
 

@@ -1,0 +1,71 @@
+@media (max-width: 600px) {
+    .element-to-hide ,.background1bar ,.rocket ,.GPA-data , .GPA, .Grade, .Grade-data, .background4, .Majors, .major-data, .Members, .family-second, .family-first,.background3, .VISA-image,.sponsors-container,.Familia-photo{
+        display: none; /* This will hide the element on small screens */
+        
+    }
+
+    .background1{
+        margin-top:70px;
+        padding: 100px;
+    }
+    .title1 h1 {
+        font-size: 2.5rem; /* Adjust to fit your design */
+        text-align: center;
+      
+        line-height: 1.2;
+      }
+    .title1{
+        
+        font-size: 20px;
+        margin-top:-80px;
+        margin-left:-5%;
+        width:600px;
+        color:white;
+        white-space: nowrap;
+
+
+
+        
+        
+        
+    }
+    .Astro{
+        margin-left: 30px;
+        margin-top: 10px;
+        height: 200px;
+        width: auto;
+        opacity: 0.3;
+    }
+    
+    .background1bar{
+        width:0.001px;
+        height:0.0001px
+    }
+    .download-button{
+        top: 180px;
+        margin-left: 92%;
+    }
+
+    .NCR-image{
+        top: 450px;
+        left: -40px;
+    }
+    .sponsors-container img{
+        margin-top: -1050px;
+        height:500px;
+        width: 500px;
+        margin-left: 50px;
+
+    }
+    .Familia-photo2{
+        width: 250%;
+        height: auto;
+        top:200px;
+        position:absolute;
+        margin-left:-50px;
+
+
+    }
+
+
+}

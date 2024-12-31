@@ -1,5 +1,9 @@
 import React from "react";
 import './Sponsors.css'; 
+import './sponsors_600px.css';
+import './sponsors_719px.css';
+import './sponsors_999px.css';
+import './sponsors_1200px.css';
 import { Link } from 'react-router-dom';  
 
 const Sponsors = () => {
@@ -31,6 +35,7 @@ const Sponsors = () => {
         <img src="NCR.png" alt="NCR Image" className="NCR-image" />
         <div className="background3">.</div>
         <img src="Familia.png" alt="Group Photo" className="Familia-photo" />
+        <img src="Familia.png" alt="Group1 Photo" className="Familia-photo2" />
 
         <div className="family-first">Únete Ao</div>
         <div className="family-second">Nuestro Familia</div>

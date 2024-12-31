@@ -1,0 +1,71 @@
+
+@media (min-width: 1000px) and (max-width:1200px){
+    .element-to-hide, .VISA-image{
+        display: none;
+    }
+    .background1bar{
+        margin-top: -10px;
+    }
+    .NCR-image{
+        margin-left: 150px;
+    }
+    .title1{
+        margin-top:-30px;
+    }
+    .sub-title{
+        font-size:18px
+    }
+    .download-button{
+        margin-top: 0px;
+        margin-left: 25px;
+    }
+    .family-first{
+        margin-left:610px;
+        font-size: 65px;
+        margin-top:20px;
+    }
+    .family-second{
+        font-size:60px;
+        
+    }
+    .background4{
+        margin-top:-40px;
+    }
+    .Majors{
+        margin-top:-70px;
+        font-size:35px;
+    }
+    .major-data{
+        margin-top:-70px;
+        width:420px;
+        font-size:23.5px
+    }
+
+    .Grade{
+        margin-top:-70px;
+        margin-left:340px;
+        font-size:35px;
+    }
+    .Grade-data{
+        margin-top:-70px;
+        font-size:25px;
+        margin-left:400px;
+
+    }
+    .GPA{
+        margin-top:-70px;
+        font-size:35px
+    }
+    .GPA-data{
+        margin-top:-70px;
+        font-size:25px;
+    }
+
+    .sponsors-container img{
+        width:380px;
+        height:250px;
+        margin-top:-60px;
+    }
+}
+
+
