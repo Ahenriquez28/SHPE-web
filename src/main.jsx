@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 /* Imporant to keep this here in order to switch in between pages */
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/SHPE-web">
       <App />
     </BrowserRouter>
   </React.StrictMode>
