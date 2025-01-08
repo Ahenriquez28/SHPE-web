@@ -10,13 +10,18 @@
     opacity: 1; /* End fully visible */
   }
 }
-@font-face {
-  font-family: 'Univers LT Std';
-  src: url('/fonts/UniversLTStd.woff2') format('woff2'), /* Adjust the path to the correct location */
-       url('/fonts/UniversLTStd.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+@keyframes slideUp {
+  from {
+    transform: translateY(100%); /* Start from below the visible area */
+    opacity: 0; /* Start invisible */
+  }
+  to {
+    transform: translateY(0); /* End at its original position */
+    opacity: 1; /* End fully visible */
+  }
 }
+
+
 
 
 .join-container {
@@ -41,7 +46,7 @@
   text-align: left; /* Aligns text to the left */
   width: 100%; /* Ensure the title takes up the full width of the container */
   bottom: -50%; /* Adjusted bottom position for better spacing */
-  animation: slideIn 1s ease-out;
+  animation: slideIn 0.5s ease-out;
 }
 
 /* Gears Image Styles */
@@ -62,6 +67,7 @@
   margin-top: -37%; /* Adjusted top position to move higher */
   margin-bottom:30%;
   z-index: 1;
+  animation: slideUp 1s ease-out; 
 
 }
 
@@ -84,7 +90,7 @@
   width: 40%;
   position: relative;
   top: 120%; /* Adjusted top position for better spacing */
-  animation: slideIn 1s ease-out;
+  animation: slideIn 1.2s ease-out;
 }
 
 
@@ -107,13 +113,29 @@
   top:110%;
 }
 
-.arduino{
-  position:absolute;
+
+
+.arduino {
+  position: absolute;
   top: 110%;
-  width:21.73%;
+  width: 21.73%;
   height: auto;
-  margin-left:35%;
+  margin-left: 35%;
+
 }
+
+
+
+
+
+
+
+
+:target {
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Reset position */
+}
+
 
 .Professional{
   font-family: 'Univers LT Std', sans-serif;
@@ -123,6 +145,7 @@
   top:115%;
   font-size: 40px;
   color: #001f66;
+  
 
   margin-left:-3%;
 }
@@ -131,10 +154,12 @@
   position: absolute;
   top:125%;
   font-size:25px;
-  margin-left: -2%;
+  margin-left: -10px;
   color:white;
   width:30%;
   text-align: center;
+  letter-spacing: 1px;
+  font-weight: bold;
 }
 
 .Academic{
@@ -156,7 +181,9 @@
   margin-left: 64%;
   width:25%;
   text-align: center;
-  font-size: 25px;
+  font-size: 23px;
+  letter-spacing: 1px;
+  font-weight: bold;
 }
 
 .bg-join3{ /* Socials background */
@@ -184,24 +211,31 @@
 
 }
 .Social{
-  font-family: 'Univers LT Std', sans-serif;
+
   position: absolute;
-  margin-left: 68%;
+  margin-left: 900px;
   top:164%;
-  font-size:60px;
+  font-size:35px;
   color:#001f66;
   font-weight:bold;
+  letter-spacing: 1px;
+  font-weight: bold;
+  width:600px;
 }
 .Social-detail{
-  font-family: 'Univers LT Std', sans-serif;
+
   top:178%;
   position: absolute;
-  margin-left:64%;
+  margin-left:62%;
   color:white;
-  font-size:25px;
+  font-size:23px;
   text-align: center;
-  width:23%;
+  width:400px;
   height: 35%;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-top:-30px;
+
 }
 
 .group-photo{
@@ -257,7 +291,7 @@
 .top-bar{
   position:absolute;
   width:23%;
-  height: 7%;
+  height: 5%;
   top:17%;
   background-color: #FD652F;
   animation: slideIn 1s ease-out;
@@ -270,6 +304,7 @@
   margin-left: -5%;
   height:30%;
   background-color: #FD652F;
+
 }
 
 .shpe-familia{
@@ -281,7 +316,10 @@
   margin-left:-4%;
   font-weight:bold;
   z-index: index 4;;
+  /* new additions */
+
 }
+
 
 .bg-join6{
   top:280%;

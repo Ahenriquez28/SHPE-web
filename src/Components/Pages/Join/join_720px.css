@@ -191,4 +191,22 @@
   .shpelogo-image{
     margin-top:200px;
   }
+  html, body {
+
+    min-height: 100vh; /* Ensures the minimum height is always 100% of the viewport height */
+    display: flex;
+    flex-direction: column; /* Stacks child elements vertically */
+    }
+
+/* Prevent collapsing for specific sections */
+    .container, .content, .main {
+
+        min-height: 100%; /* Ensure specific sections also retain height */
+    }
+
+/* Optional: Handle overflow gracefully */
+    html, body {
+        overflow-y: auto; /* Allows scrolling when content exceeds the viewport */
+        overflow-x: hidden; /* Prevent horizontal scrollbars */
+    }
 }

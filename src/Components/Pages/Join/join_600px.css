@@ -1,3 +1,5 @@
+/* adjust for screens 400 width */
+
 @media (max-width: 600px) {
     /* List all classes to hide here */
     .gears-image,
@@ -11,7 +13,8 @@
     .Eboard-button,
     .top-bar,
     .first-bar,
-    .shpe-familia {
+    .shpe-familia,
+    .Space-image {
       display: none; /* Hides all elements in this list */
     }
   
@@ -29,16 +32,16 @@
     }
     
     .join-subtitle {
-      width:600px;
-      font-size: 26px;
-      font-weight: bold;
-      margin-left:20px
+      width:400px;
+      font-size: 30px;
+      font-weight: bolder;
+      margin-left:30px
   
   
     }
     .bg-join3{
       position: relative;
-      height: 1000px;
+      height: 900px;
       width:200%;
       margin-left:-30px;
       margin-top:40px;
@@ -46,9 +49,9 @@
   
     }
     .Professional{
-      font-size:20px;
-      margin-top:-430px;
-      margin-left:-10px
+      font-size:15px;
+      margin-top:-480px;
+      margin-left:-15px
   
   
     
@@ -56,101 +59,111 @@
     .Profess-detail{
       color:black;
       z-index:1;
-      font-size:17px;
-      margin-top:-450px;
-      width:265px;
-      margin-left:-20px;
+      font-size:10.5px;
+      margin-top:-520px;
+      width:160px;
+      margin-left:1px;
       color:white;
   
     }
     .profess-image{
-      width:310px;;
-      height: auto;
-      margin-top:-739px;
-      margin-left:260px;
+      width:200px;;
+      height: 180px;;
+      margin-top:-825px;
+      margin-left:190px;
   
   
     }
     .Academic{
-      margin-top: -232px;
-      font-size:20px;
+      margin-top: -100px;
+      font-size:15px;
       margin-left: -10px;
+      z-index: 2;
     }
     .Academic-detail{
       color:black;
-      width:265px;
-      font-size: 17px;
-      margin-left:-20px;
-      margin-top:-260px;
+      width:180px;
+      font-size: 12px;
+      margin-left:-10px;
+      margin-top:-130px;
       color:white;
     }
   
     .Social{
-      margin-top:-540px;
-      font-size:20px;
-      font-weight: bolder;
-      margin-left:380px;
+      margin-top:-660px;
+      font-size:15px;
+    
+      margin-left:220px;
+      letter-spacing: -1px;
+      
     }
   
     .Social-detail{
       color:black;
-      margin-top:-595px;
-      font-size:17px;
-      width:270px;
-      margin-left:280px;
+      margin-top:-725px;
+      font-size:10px;
+      width:180px;
+      margin-left:195px;
       color:white;
+      letter-spacing: 0.5px;
+      font-weight: bold;
     }
     .arduino{
   
       top:500px;
       margin-bottom: 900px;
-      width:47%;
-      height: 350px;
-      margin-left:285px;
-      margin-top:200px
+      width:47.8%;
+      height: 250px;
+      margin-left:190px;
+      margin-top:173px
     }
     .social-image{
-      width:50%;
-      height: 350px;;
-      margin-top:-310px;
-      margin-left:-15px;
+      width:51%;
+      height: 210px;;
+      margin-top:-650px;
+      margin-left:-20px;
   
     }
     .bg-join6{
-      margin-top:-718px;
-      height: 300px;
+      margin-top:-1030px;
+      height: 320px;
       width:870px
     }
     .Updated{
       color:black;
-      margin-top: -730px;
+      margin-top: -1050px;
       width:500px;
       font-size:50px;
-      margin-left:110px;
+      margin-left:25px;
       color:white;
+      z-index:10;
     }
   
     /* finish this part for the join me */
     .Member{
-      font-size: 25px;
-      margin-top:-125%;
-      margin-left:400px;
+      font-size: 18px;
+      margin-top:-1050px;
+      margin-left:260px;
+      z-index:1;
     }
     .Follow{
-      margin-top:-125%;
+      margin-top:-1050px;
       position: absolute;
-      font-size:28px;
+      font-size:20px;
+      z-index:1;
     }
     .Join{
-      margin-top:-750px;
-      font-size:28px
+      margin-top:-1050px;
+      font-size:20px;
+      margin-left:160px;
+      z-index:1;
   
     }
     .insta-image, .groupme-image, .shpelogo-image {
-      margin-top:-755px;
+      margin-top:-1050px;
   
       position: absolute;
-      width: 10%;
+      width: 12%;
       height: auto;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
@@ -162,5 +175,6 @@
     .insta-image{
   
     }
+
   
   }

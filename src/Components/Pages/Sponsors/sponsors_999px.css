@@ -1,5 +1,5 @@
 @media (min-width:720px ) and (max-width: 999px){
-    .element-to-hide  ,.Members, .VISA-image,.Familia-photo,.sponsors-container{
+    .element-to-hide  ,.Members, .Familia-photo,.sponsors-container{
         display: none; /* This will hide the element on small screens */
     }
     .title1{
@@ -49,7 +49,7 @@
         margin-top:-40px;
         width:1500px;
         margin-left:0px;
-        padding:150px;
+        padding:150px; 
 
     }
     .rocket{
@@ -64,6 +64,7 @@
         height: 250px;
         width:1100%;
         margin-left: -30px;
+        
 
     }
     .Majors{
@@ -107,13 +108,28 @@
 
     }
     .background1bar{
-        margin-top:1050px;
+        margin-top:750px;
+        margin-bottom:-1000px;
         width: 1000px;
         height: 150px;
         margin-left:-10px;
-        background-color:#FD652F
+        background-color:#FD652F;
+        position:relative
         
+    } 
+    .Space-image{
+        margin-top:-1100px
     }
+
+    @media (min-width:720px)and (max-width:840px){
+        .background1bar{
+            height:1px;
+            margin-bottom: -670px;;
+            position: relative;
+        }
+    }
+  
+    
     
 
     

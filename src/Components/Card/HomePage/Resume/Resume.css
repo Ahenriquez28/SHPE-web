@@ -82,4 +82,13 @@
     .resume-content button {
         margin-left: 0; /* Reset margin */
     }
+
+    
+}
+@media (max-width:600px){
+    .resume-content button{
+        margin-left:100px;
+    }
+    
+    
 }

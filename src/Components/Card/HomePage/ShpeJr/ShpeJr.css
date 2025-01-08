@@ -42,3 +42,15 @@
     line-height: 1.5; /* Line height for readability */
     margin-bottom: 110px; /* Adjust bottom margin as needed */
 }
+@media(max-width:600px){
+    .ShpeJr-content h2{
+        font-size:20px;
+        width:200px;
+        margin-left:-70px;
+    }
+    .ShpeJr-content p{
+        font-size:12px;
+        width:120px;
+        margin-left:-30px;
+    }
+}

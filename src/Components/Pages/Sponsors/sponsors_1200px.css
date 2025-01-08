@@ -65,6 +65,25 @@
         width:380px;
         height:250px;
         margin-top:-60px;
+
+    }
+    .Space-image{
+        margin-top:-1100px;
+
+    }
+    @media (min-width:1000px)and (max-width:1050px){
+        .background1bar{
+            height:1px;
+            margin-bottom: 40%;
+            position: relative;
+        }
+    }
+    @media (min-width:1051px)and (max-width:1115px){
+        .background1bar{
+            height:1px;
+            margin-bottom: 12%;
+            position: relative;
+        }
     }
 }
 

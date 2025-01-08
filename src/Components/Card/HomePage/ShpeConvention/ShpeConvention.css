@@ -47,3 +47,19 @@
     line-height: 1.5; /* Line height for readability */
     margin-bottom: 20px; /* Adjust bottom margin as needed 20px */
 }
+
+@media (max-width:600px){
+    .ShpeConvention-image{
+        margin-left:5px;
+    }
+    .ShpeConvention-content h2{
+        font-size: 20px;
+        margin-top:10px;
+        margin-left:-25px;
+    }
+    .ShpeConvention-content p{
+        font-size:12px;
+        width:100px;
+        margin-left:-25px;
+    }
+}

@@ -43,3 +43,21 @@
     line-height: 1.5; /* Line height for readability */
     margin-bottom: 100px; /* Adjust bottom margin as needed */
 }
+
+@media (max-width:600px){
+    .Shpetinas-content p{
+        width:120px;
+        margin-left:-30px;
+        font-size:12px;
+    }
+    .Shpetinas-image{
+        margin-left:25px;
+        margin-top:30px;
+    }
+    .Shpetinas-content h2{
+        margin-top:-10px;
+        font-size:20px;
+        margin-left:-20px;
+    }
+}
+

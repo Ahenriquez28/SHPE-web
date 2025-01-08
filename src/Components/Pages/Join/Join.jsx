@@ -2,6 +2,8 @@ import React from "react";
 import './Join.css';
 import './join_600px.css';
 import './join_720px.css';
+import './join_1000px.css';
+import './join_1200px.css'
 
 import { Link } from 'react-router-dom';  
 
@@ -19,6 +21,7 @@ const Join = () => {
                 <div className='images-container'>
                     <img src='gears.png' alt='Gears Image' className='gears-image' />
                     <img src='collab.png' alt='Collab Image' className='collab-image' />
+                    
                 </div>
 
                 <div className='bg-join1'>.</div>
@@ -26,16 +29,16 @@ const Join = () => {
                 <div className='bg-join2'>.</div>
                 <img src="arduino.png" alt="ard Image" className="arduino" />
                 <div className='Professional'>Professional Development</div>
-                <div className='Profess-detail'>These events include company tours and professional speakers aimed at enhancing career growth. Networking sessions are also held to connect participants with professionals in their field</div>
+                <div className='Profess-detail'>Company tours, expert-led talks, and interactive networking sessions provide participants with valuable connections and tools to advance their careers</div>
 
                 <div className='Academic'>Academic Development</div>
-                <div className='Academic-detail'>Events feature a student hackathon designed to foster innovation and problem-solving skills. Beginner-friendly engineering kits are provided to help participants build practical technical knowledge</div>
+                <div className='Academic-detail'>Includes a student hackathon that fosters innovation and sharpens problem-solving skills. Participants also gain hands-on experience with beginner-friendly engineering kits, building practical technical knowledge.</div>
 
                 <div className='bg-join3'>.</div>
                 <img src='social.png' alt='social Image' className='social-image' />
                 <img src='professional.png' alt='professional Image' className='profess-image' />
                 <div className='Social'>Community Building</div>
-                <div className='Social-detail'>These gatherings are organized to bring the Hispanic community together and strengthen their bonds. We offer a fun and welcoming atmosphere for participants to relax and enjoy.</div>
+                <div className='Social-detail'> Uniting the Hispanic community, fostering meaningful connections and a sense of belonging. These events create a fun and welcoming atmosphere where participants can relax, socialize, and enjoy shared experiences.</div>
 
                 <img src='group.png' alt='groupImage' className='group-photo' />
                 <div className='bg-join4'>.</div>

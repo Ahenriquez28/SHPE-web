@@ -19,8 +19,9 @@ const App = () => {
     const showImageSlider = location.pathname === '/';
 
     const slides = [
-        { url: 'http://localhost:5173/Designer.png', title: 'Designer' },
-        { url: 'http://localhost:5173/fair.png', title: 'Fair' },
+        { url: 'http://localhost:5173/Hack-flyer3.png', title: 'Designer' },
+        { url: 'http://localhost:5173/website2.png', title: 'Fair' },
+        { url: 'http://localhost:5173/arduino-work3.png', title: 'Fair' },
     ];
 
     return (

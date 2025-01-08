@@ -88,24 +88,6 @@ const EBoard = () => {
       ),
     },
     {
-      image: 'community.png',
-      header: 'David Quintanar',
-      subHeader: 'Community Service',
-      content: (
-        <>
-        I’m dedicated to SHPE’s success because I want to empower Hispanic engineers and create growth opportunities. I will achieve this by expanding mentorship programs and building strong industry partnerships for valuable resources and networking.
-        <br />
-        <br />
-        Fun Fact: I like soccer.
-
-        <br /> 
-
-        <a href="mailto:dquintanar1@student.gsu.edu">dquintanar1@student.gsu.edu</a>
-        </>
-      ),
-      className: 'small-image-card',
-    },
-    {
       image: 'graphic.png',
       header: 'Jessica Zaragoza',
       subHeader: 'Graphic Design',

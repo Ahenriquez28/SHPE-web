@@ -74,3 +74,16 @@
     visibility: visible; 
     transform: scaleX(1); 
 }
+
+@media (max-width:600px){
+    .logo-text{
+        display:none
+    }
+    .logo{
+        width:100px;
+        margin-left:-15px;
+    }
+    .navbar{
+        margin-left:-40px;
+    }
+}

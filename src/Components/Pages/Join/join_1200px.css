@@ -1,0 +1,72 @@
+@media (min-width:1025px) and (max-width:1250px){
+    .shpe-familia{
+        font-size:62px;
+    }
+    .collab-image{
+        margin-top:-440px;
+    }
+    .top-bar{
+        height: 40px;
+        width:400px;
+        margin-left:-30px;
+    }
+    .join-description{
+        margin-top:10px;
+    }
+    .Professional{
+        font-size:30px;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    .Profess-detail{
+        font-size:22px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        margin-top:-10px;
+    }
+    .arduino{
+        height:400px;
+    }
+    .Academic{
+        font-size:30px;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    .Academic-detail{
+        font-size:22px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        width:400px;
+        margin-left:725px;
+    }
+    .Social{
+        font-size:30px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        margin-left:770px;
+    }
+    .Social-detail{
+        font-size:22px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        width:400px;
+        margin-left:720px;
+        margin-top:-20px;
+    }
+    .Eboard-button{
+        width:200px;
+        margin-top:10px;
+    }
+    .bg-join6{
+        height: 500px;;
+    }
+    .Follow,.Join,.Member{
+        font-size:50px;
+        margin-top:10px;
+    }
+    .insta-image,.groupme-image,.shpelogo-image{
+        margin-top:20px;
+    }
+
+    
+}

@@ -1,0 +1,185 @@
+@media (min-width:721px) and (max-width: 1024px) {
+    .gears-image,
+     .bg-join2
+   {
+        display: none;
+    }
+    .join-main-title{
+        font-size:70px;
+    }
+    .top-bar{
+        height: 30px;
+        width:300px;
+        margin-left:-20px;
+        margin-top:-20px;
+    }
+    .join-subtitle{
+        font-size:40px;
+        width:500px;
+        margin-top:10px;
+    }
+    .join-description{
+        font-size:18px;
+        width:700px;
+        margin-top:30px;
+    }
+    .collab-image{
+        opacity: 0.2;
+        margin-top:-510px;
+        margin-left:350px;
+    }
+    .shpe-familia{
+        margin-left:20px;
+
+    }
+    .first-bar{
+        width:1000px;
+    }
+    .bg-join3{
+        position: relative;
+        height: 1300px;
+        margin-left:-50px;
+        margin-top:-100px;
+        width:1000px;
+    }
+    .Academic{
+        z-index: 1;
+        margin-left:620px;
+        font-size:25px;
+        letter-spacing: 1px;
+        font-weight: bold;
+
+    }
+    .Academic-detail{
+        z-index: 1;
+        font-size:20px;
+        margin-left:620px;
+        width:300px;
+        margin-top:-20px;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    .arduino{
+        z-index:1;
+        width:250px;
+        margin-left:320px;
+    }
+    .Professional{
+        z-index:1;
+        font-size:25px;
+    
+    }
+    .Profess-detail{
+        z-index:1;
+        font-size:20px;
+        margin-top:-10px;
+        letter-spacing: 1px;
+        font-weight: bold;
+
+    }
+    .profess-image{
+        width:370px;
+        height: 285px;
+        margin-top:-35px;
+        margin-left:-50px;
+
+    }
+    .social-image{
+        margin-top:-50px;
+        width:250px;
+        margin-left:320px;
+        height: 300px;
+    }
+    .Social{
+        font-size:25px;
+        margin-left:630px;
+        margin-top:-40px;
+
+    }
+    .Social-detail{
+        font-size:20px;
+        margin-top:-90px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        width:300px;
+        margin-left:610px;
+
+    }
+    .bg-join4{
+        height: 400px;
+        margin-top:-155px;
+        width:1000px;
+
+    }
+    .group-photo{
+        z-index:1;
+        height: 400px;
+        width:auto;
+        margin-top:-155px;
+        margin-left:420px;
+    }
+    .Team{
+        font-size:65px;
+        margin-top:-160px;
+        margin-left:20px;
+    }
+    .Eboard-button{
+        margin-top:-200px;
+        margin-left:20px;
+        width:200px;
+    }
+    .bg-join6{
+        margin-top:-186px;
+    }
+    .Updated{
+        margin-top:-200px;
+        margin-left:250px;
+
+    }
+    .Follow,.Join,.Member{
+        margin-top:-190px;
+        font-size:40px;
+    
+    }
+    .insta-image{
+        margin-top:-200px
+
+    }
+    .groupme-image{
+        margin-top:-200px;
+        margin-left:390px;
+
+    }
+    .shpelogo-image{
+        margin-top: -200px;
+ 
+
+    }
+    .bg-join1{
+        position: relative;
+        margin-bottom:1px;
+        height: 1px;
+    }
+    /* Prevent the website from collapsing vertically */
+    @media (min-width:750px) and (max-width:860px){
+        .bg-join1{
+            margin-bottom:-290px;
+        }
+    }
+    
+    @media(min-width:861px) and (max-width:950px){
+        .bg-join1{
+            margin-bottom:-400px;
+        }
+    }
+    @media(min-width:951px) and (max-width: 1024px){
+        .bg-join1{
+            margin-bottom:-480px;
+        }
+    }
+
+    
+    
+
+}
+

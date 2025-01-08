@@ -10,7 +10,28 @@ const Sponsors = () => {
   const handleDownload = () => {
     const pdfUrl = '/spons-pak.pdf';  // Ensure this file path is correct
     console.log(pdfUrl);              // Logging for debugging
-    window.open(pdfUrl, '_blank');    // Open the PDF in a new tab
+
+    // Send the click data to your backend for logging
+    const data = {
+      event: "Become A Sponsor Button Clicked",
+      timestamp: new Date().toISOString(),
+    };
+
+    // Sending the data to the backend (assuming your server is running on localhost:3001)
+    fetch('http://localhost:3001/track', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ event:'Become A Sponsor clicked', timestamp: new Date()})
+    })
+    .then(response => response.text())
+    .then(data => console.log('Data logged:', data))
+    .catch((error) => console.error('Error:', error));
+    
+
+    // Open the PDF in a new tab
+    window.open(pdfUrl, '_blank');    
   };
 
   return (
@@ -36,6 +57,7 @@ const Sponsors = () => {
         <div className="background3">.</div>
         <img src="Familia.png" alt="Group Photo" className="Familia-photo" />
         <img src="Familia.png" alt="Group1 Photo" className="Familia-photo2" />
+        <img src ="space.png" alt='spac' className="Space-image" /> 
 
         <div className="family-first">Únete Ao</div>
         <div className="family-second">Nuestro Familia</div>
@@ -48,8 +70,8 @@ const Sponsors = () => {
         <div className="major-data">
           <p>68% Computer Science</p>
           <p>18% Computer Information Systems</p>
-          <p>6% Cyber Security</p>
-          <p>8% Others</p>
+          <p>8% Data Science</p>
+          <p>6% Others</p>
         </div>
 
         {/* Grade Distribution Section */}
@@ -78,9 +100,6 @@ const Sponsors = () => {
         </div>
 
         <img src="rocket.png" alt="rocket Image" className="rocket" />
-
-
-
       </div>
     </div>
   );
