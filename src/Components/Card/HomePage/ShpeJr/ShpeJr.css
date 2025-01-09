@@ -15,7 +15,7 @@
     flex-direction: column; /* Arrange content vertically */
     justify-content: space-between; /* Space evenly between elements */
     overflow: auto;
-}
+    animation: slideUp 1s;
 
 .ShpeJr-image {
     margin-top: 50px; /* Adjust top margin as needed */
@@ -54,3 +54,15 @@
         margin-left:-30px;
     }
 }
+@keyframes slideUp {
+    from {
+      transform: translateY(100%); /* Start from below the visible area */
+      opacity: 0; /* Start invisible */
+    }
+    to {
+      transform: translateY(0); /* End at its original position */
+      opacity: 1; /* End fully visible */
+    }
+  }
+}
+
