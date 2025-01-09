@@ -15,6 +15,7 @@
     justify-content: space-between; /* Space evenly between elements */
     position: relative; /* Ensure position is relative for absolute positioning */
     overflow: auto;
+    animation: slideIn 1s ease-out; 
 }
 
 .Shpetinas-image {
@@ -60,4 +61,25 @@
         margin-left:-20px;
     }
 }
+@keyframes slideIn {
+    from {
+      transform: translateX(-100%); /* Start from outside the left edge */
+      opacity: 0; /* Start invisible */
+    }
+    to {
+      transform: translateX(0); /* End at its original position */
+      opacity: 1; /* End fully visible */
+    }
+  }
+  @keyframes slideUp {
+    from {
+      transform: translateY(100%); /* Start from below the visible area */
+      opacity: 0; /* Start invisible */
+    }
+    to {
+      transform: translateY(0); /* End at its original position */
+      opacity: 1; /* End fully visible */
+    }
+  }
+
 
