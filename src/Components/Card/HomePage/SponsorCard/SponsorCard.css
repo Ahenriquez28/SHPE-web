@@ -1,3 +1,14 @@
+@keyframes slideUp {
+    from {
+      transform: translateY(100%); /* Start from below the visible area */
+      opacity: 0; /* Start invisible */
+    }
+    to {
+      transform: translateY(0); /* End at its original position */
+      opacity: 1; /* End fully visible */
+    }
+  }
+
 .sponsor-card {
     position: relative;
     z-index: 1;
@@ -13,6 +24,7 @@
     margin-left: 67.7%;
     margin-top: 0px;
     overflow-x: auto;
+    animation: slideUp 1s
 }
 
 .sponsor-logo img {
@@ -58,3 +70,24 @@
 .sponsor-content button:focus {
     outline: none; /* Remove outline on focus */
 }
+
+@media (max-width:440px){
+    .sponsor-content p{
+        display:none
+    }
+    .sponsor-logo img{
+        margin-top:-100px;
+        height: auto;
+        width:80px;
+    }
+    .sponsor-content h2{
+        font-size:15px;
+        margin-left:-119px;
+        width:120px;
+        margin-top:90px
+    }
+    .sponsor-content button{
+        margin-left:-110px;
+    }
+}
+
