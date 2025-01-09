@@ -1,344 +1,82 @@
-html, body {
-    overflow-x: hidden; /* Prevent horizontal scrolling */
-    margin: 0; /* Remove default margins */
-}
-@keyframes slideIn {
-    from {
-      transform: translateX(-100%); /* Start from outside the left edge */
-      opacity: 0; /* Start invisible */
+@media (max-width: 600px) {
+    .element-to-hide ,.background1bar ,.rocket ,.GPA-data , .GPA, .Grade, .Grade-data, .background4, .Majors, .major-data, .Members, .family-second, .family-first,.background3, .VISA-image,.sponsors-container,.Familia-photo{
+        display: none; /* This will hide the element on small screens */
+        
     }
-    to {
-      transform: translateX(0); /* End at its original position */
-      opacity: 1; /* End fully visible */
+
+    .background1{
+        margin-top:70px;
+        padding: 100px;
     }
-  }
-
-@font-face {
-    font-family: 'Univers LT Std';
-    src: url('/fonts/UniversLTStd.woff2') format('woff2'), /* Adjust the path to the correct location */
-         url('/fonts/UniversLTStd.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-.background1 {
-    font-family: 'Univers LT Std', sans-serif;
-    margin-top: 0;
-    width: 100%;
-    padding: 20%;
-    background-color: #001F5B;
-    color: #001F5B;
-    font-size: 80px;
-    position: relative;
-    overflow: hidden;
-
-}
-.Familia-photo2{
-    width:0;
-    height: 100px;
-    position: absolute;
-}
-
-.background1bar{
-    position: absolute;
-    color: #0033A0;
-    background-color: #0033A0;
-    top: 20%;
-    padding: 1%;
-    width: 15%;
-    height: 5%;
-    margin-left: 10%;
-    z-index:10
-}
-
-.title1 {
-    font-family: 'Univers LT Std', sans-serif;
-    font-weight: bold;
-    position: absolute;
-    top: 30%;
-    margin-left: 10%;
-    color: #FD652F;
-    width: 500px; /* Small width */
-    height: 40px; /* Small height */
-    font-size: 50px; /* Smaller font size */
-    line-height: 80px;
-    z-index:20;
-    animation: slideIn 1s;
-}
+    .title1 h1 {
+        font-size: 2.5rem; /* Adjust to fit your design */
+        margin-left:120px;
+        margin-top:-50px;
+        width:600px;
+       
+      
+        line-height: 1.2;
+      }
+    .title1{
+        
+        font-size: 20px;
+        margin-top:-120px;
+        margin-left:35px;
+        width:600px;
+        color:white;
+        
 
 
 
-
-.sub-title{
-    font-family: 'Univers LT Std', sans-serif;
-    width: 40%;
-    position: absolute;
-    top: 55%;
-    font-size: 20px;
-    margin-left:10%;
-    color:white;
-    z-index:10;
-    animation: slideIn 2s;
+        
+        
+        
+    }
+    .Astro{
+        margin-left: -10px;
+        margin-top: 10px;
+        height: 200px;
+        width: auto;
+        opacity: 0.3;
+    }
     
+    .background1bar{
+        width:0.001px;
+        height:0.0001px
+    }
+    .download-button{
+        top: 120px;
+        margin-left: 92%;
 
-}
+    }
 
+    .NCR-image{
+        top: 430px;
+        left: -80px;
+    }
+    .sponsors-container img{
+        margin-top: -1050px;
+        height:500px;
+        width: 500px;
+        margin-left: 50px;
 
-.download-button {
-    font-family: 'Univers LT Std', sans-serif; /* Font family */
-    border: none; /* Remove border */
-    padding: 19px 24px; /* Adjusted padding for better appearance */
-    border-radius: 15px; /* Rounded corners */
-    position: absolute; /* Absolute positioning */
-    top: 98%; /* Adjust position as needed */
-    left: 15%; /* Center the button horizontally */
-    transform: translateX(-50%); /* Center the button precisely */
-    width: auto; /* Let the width be determined by padding and content */
-    max-width: 300px; /* Optional: Max width to ensure it doesn’t get too large */
-    font-size: 15px; /* Font size */
-    font-weight: bold; /* Font weight */
-
-    color: #ffffff; /* Text color */
-    background-color: #0033A0; /* Background color */
-    cursor: pointer; /* Pointer cursor on hover */
-    text-align: center; /* Center text inside button */
-    text-decoration: none; /* Remove underline */
-    outline: none; /* Remove outline */
-    transition: background-color 0.3s; /* Smooth transition on hover */
-    z-index:1;
-}
-
-.download-button:hover {
-    background-color: #002080; /* Darker shade on hover */
-}
-
-.download-button:active {
-    background-color: #001f66; /* Even darker shade on click */
-}
+    }
+    .Familia-photo2{
+        width: 250%;
+        height: auto;
+        top:140px;
+        position:absolute;
+        margin-left:-40px;
 
 
-.background2{
-    position: relative;
-    color: white;
-    width:100%;
-    padding: 50%;
-    z-index:2;
-
-}
-
-.VISA-image{
-    position: absolute;
-    width: 60%;
-    height: auto;
-    top:230%;
-    display:none;
-}
-.NCR-image{
-    position: absolute;
-    width: 137%;
-    height: auto;
-    top:210%;
-    margin-left: 30%;
-} 
-.background3{
-    position: absolute;
-    color: #001f66;
-    bottom: 100%;
-    top:450%;
-    padding: 48%;
-    background-color: #001f66;
-    width: 115%;
-    margin-left: 110%;
+    }
+    .sub-title{
+        font-size:0.01px;
+    }
+    .Space-image{
+        width:200px;
+        
+    }
 
 
 }
-.Familia-photo{
-    position: absolute;
-    width: 140%;
-    height: auto;
-    top:450%;
-    margin-left: -25%;
-
-}
-
-.family-first{
-    font-family: 'Univers LT Std', sans-serif;
-    position: absolute;
-    top:500%;
-    color: white;
-    width: 100%;
-    margin-left: 120%;
-    font-size: 80px;
-    font-weight: bold;
-
-
-}
-.family-second{
-    font-family: 'Univers LT Std', sans-serif;
-    position: absolute;
-    top:600%;
-    color: #FD652F;
-    width: 150%;
-    margin-left: 120%;
-    font-size: 80px;
-    font-weight: bold;
-    text-shadow: 2px 2px 0px white, -2px -2px 0px white, 2px -2px 0px white, -2px 2px 0px white;
-
-}
-
-.background4{
-    position: absolute;
-    font-size:60px;
-    top:900%;
-    color:#72A9BE;
-
-    margin-left: -25%;
-    background-color: #72A9BE;
-    width:250%;
-    padding: 20%;
-    box-sizing: border-box;
-    max-width: 100vw;
-
-}
-.Members{
-    top:1500%;
-    color:white;
-    font-size:40px;
-    margin-left:75%;
-    top:910%;
-    font-weight: bold;
-    position: absolute;
-    font-family: 'Univers LT Std', sans-serif;
-
-}
-.Majors{
-    font-family: 'Univers LT Std', sans-serif;
-    position: absolute;
-    top:940%;
-    width: 100%;
-
-    color: #0033A0;
-    font-size:40px;
-    margin-left:-20%;
-    font-weight: bold;
-    text-shadow: 2px 2px 0px white, -2px -2px 0px white, 2px -2px 0px white, -2px 2px 0px white;
-}
-.major-data{
-    font-family: 'Univers LT Std', sans-serif;
-    color: white;
-    top:1000%;
-    font-size:25px;
-    position: absolute;
-    margin-left: -20%;
-}
-
-.Grade{
-    position: absolute;
-    font-family: 'Univers LT Std', sans-serif;
-    position: absolute;
-    top:940%;
-    color: #0033A0;
-    font-size:40px;
-    margin-left:70%;
-    font-weight: bold;
-    width: 100%;
-    text-shadow: 2px 2px 0px white, -2px -2px 0px white, 2px -2px 0px white, -2px 2px 0px white;
-
-}
-.Grade-data{
-    position:absolute;
-    font-family: 'Univers LT Std', sans-serif;
-    color:white;
-    top:995%;
-    font-size:25px;
-    position: absolute;
-    margin-left: 85%;
-    width:100%
-
-}
-
-.GPA{
-    font-family: 'Univers LT Std', sans-serif;
-    position: absolute;
-    top:940%;
-    color:#0033A0;
-    font-size:40px;
-    margin-left:160%;
-    font-weight: bold;
-    width: 100%;
-    text-shadow: 2px 2px 0px white, -2px -2px 0px white, 2px -2px 0px white, -2px 2px 0px white;
-}
-.GPA-data{
-    position:absolute;
-    font-family: 'Univers LT Std', sans-serif;
-    color:white;
-    top:995%;
-    font-size:25px;
-    position: absolute;
-    margin-left: 173%;
-    width:100%
-}
-
-.Astro{
-    position: absolute;
-    top:20%;
-    margin-left: 60%;;
-    width: 30%;
-    height: auto;
-    z-index: 30;
-
-}
-
-.sponsors-container {
-    position: absolute;
-    top: 1150%;                  /* Adjust the value as needed to position it */
-    margin-left: -25%;
-    width: auto;              /* Let the width adjust based on the content */
-    display: flex;             /* Use flexbox to align images */                /* Space between images */
-         /* Optional: Add padding for spacing inside */
-  }
-  
-  .sponsors-container img {
-    width: 480px;              /* Adjust the size of each image */
-    height: 400px;              /* Maintain aspect ratio */
-  }
-  
-.rocket{
-    position: absolute;
-    top:670%;
-    margin-left: 160%;
-    width: 40%;
-    height: auto;
-    transform: rotate(260deg);
-
-}
-.Space-image{
-    width:800px;;
-    margin-top:-1035px;
-    margin-left:160px;
-    height: 1500px;;
-    position: absolute;
-    transform: rotate(-90deg);
-    opacity: .6.4;
-    z-index:0;
-
-    
-}   
-
-  
-  
-
-.background1, .background2, .background3, .background4 {
-    max-width: 100vw; /* Ensure these elements don't exceed viewport width */
-}
-
-
-/* For small screens (phones) */
-
-
-
-/* THIS IS for tablet size screens  675*/
-
-
-
-
