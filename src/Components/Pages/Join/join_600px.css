@@ -1,4 +1,24 @@
 /* adjust for screens 400 width */
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%); /* Start from outside the left edge */
+    opacity: 0; /* Start invisible */
+  }
+  to {
+    transform: translateX(0); /* End at its original position */
+    opacity: 1; /* End fully visible */
+  }
+}
+@keyframes slideUp {
+  from {
+    transform: translateY(100%); /* Start from below the visible area */
+    opacity: 0; /* Start invisible */
+  }
+  to {
+    transform: translateY(0); /* End at its original position */
+    opacity: 1; /* End fully visible */
+  }
+}
 
 @media (max-width: 600px) {
     /* List all classes to hide here */
@@ -50,8 +70,9 @@
     }
     .Professional{
       font-size:15px;
-      margin-top:-480px;
-      margin-left:-15px
+      margin-top:-460px;
+      margin-left:-15px;
+      animation: slideUp 1s;
   
   
     
@@ -60,53 +81,59 @@
       color:black;
       z-index:1;
       font-size:10.5px;
-      margin-top:-520px;
+      margin-top:-490px;
       width:160px;
       margin-left:1px;
       color:white;
+      animation: slideIn 1s;
   
     }
     .profess-image{
       width:200px;;
       height: 180px;;
-      margin-top:-825px;
+      margin-top:-773px;
       margin-left:190px;
+      animation: slideUp 1s;
   
   
     }
     .Academic{
-      margin-top: -100px;
+      margin-top: -70px;
       font-size:15px;
       margin-left: -10px;
       z-index: 2;
+      animation: slideUp 1s;
     }
     .Academic-detail{
       color:black;
       width:180px;
       font-size: 12px;
       margin-left:-10px;
-      margin-top:-130px;
+      margin-top:-100px;
       color:white;
+      animation: slideIn 1s;
     }
   
     .Social{
-      margin-top:-660px;
+      margin-top:-610px;
       font-size:15px;
     
       margin-left:220px;
       letter-spacing: -1px;
+      animation: slideUp 1s;
       
     }
   
     .Social-detail{
       color:black;
-      margin-top:-725px;
+      margin-top:-670px;
       font-size:10px;
       width:180px;
       margin-left:195px;
       color:white;
       letter-spacing: 0.5px;
       font-weight: bold;
+      animation: slideIn 1s;
     }
     .arduino{
   
@@ -115,23 +142,25 @@
       width:47.8%;
       height: 250px;
       margin-left:190px;
-      margin-top:173px
+      margin-top:173px;
+      animation: slideUp 1s;
     }
     .social-image{
-      width:51%;
+      width:52.5%;
       height: 210px;;
-      margin-top:-650px;
+      margin-top:-600px;
       margin-left:-20px;
+      animation: slideUp 1s;
   
     }
     .bg-join6{
-      margin-top:-1030px;
+      margin-top:-940px;
       height: 320px;
       width:870px
     }
     .Updated{
       color:black;
-      margin-top: -1050px;
+      margin-top: -950px;
       width:500px;
       font-size:50px;
       margin-left:25px;
@@ -142,25 +171,25 @@
     /* finish this part for the join me */
     .Member{
       font-size: 18px;
-      margin-top:-1050px;
+      margin-top:-950px;
       margin-left:260px;
       z-index:1;
     }
     .Follow{
-      margin-top:-1050px;
+      margin-top:-950px;
       position: absolute;
       font-size:20px;
       z-index:1;
     }
     .Join{
-      margin-top:-1050px;
+      margin-top:-950px;
       font-size:20px;
       margin-left:160px;
       z-index:1;
   
     }
     .insta-image, .groupme-image, .shpelogo-image {
-      margin-top:-1050px;
+      margin-top:-970px;
   
       position: absolute;
       width: 12%;
