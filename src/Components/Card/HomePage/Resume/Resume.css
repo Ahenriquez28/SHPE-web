@@ -89,6 +89,13 @@
     .resume-content button{
         margin-left:100px;
     }
+    .resume-card iframe{
+        width:auto !important;
+        height:300px !important;
+
+      
+    }
     
     
 }
+
